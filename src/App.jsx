@@ -20,6 +20,7 @@ import Contact from "./Pages/Contact";
 import Menu from "./Pages/Menu";
 import AboutUs from "./Pages/About";
 import MyCart from "./Pages/MyCart";
+import Service from "./Pages/Service";
 
 function App() {
 
@@ -33,6 +34,7 @@ function App() {
         <Route path="/delivery" element={<Deliver/>}/>
         <Route path="/myFavourites" element={<MyFavourites/>}/>
         <Route path="/myWallet" element={<MyWallet/>}/>
+        <Route path='/service' element={<Service/>}/>
         <Route path="/help" element={<Contact/>}/>
         <Route path="/contact" element={<Contact/>}/>
         <Route path="/about" element={<AboutUs/>}/>
